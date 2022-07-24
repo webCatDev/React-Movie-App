@@ -1,0 +1,32 @@
+.sidebar {
+    height: 100vh;
+    width: 5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.light {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.sidebar svg {
+    fill: var(--color-white);
+    width: 2em;
+    cursor: pointer;
+}
+
+.sidebar svg:hover {
+    fill: goldenrod;
+}
+
+.light svg {
+    fill: var(--color-black);
+}

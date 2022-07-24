@@ -1,0 +1,36 @@
+
+.featured1 {
+  background-image: linear-gradient(to bottom, rgba(0 0 0 /0), #151515),url("../../images/f-1.jpg");
+  padding: 1em;
+}
+
+.featured2 {
+  background-image: linear-gradient(to bottom, rgba(0 0 0 /0), #151515),url("../../images/f-2.jpg");
+  padding: 1em;
+}
+
+.featured img {
+    height: 12em;
+}
+
+.featured p {
+    color: lightgoldenrodyellow;
+    padding: 1em 0;
+    max-width: 80ch;
+}
+
+.featured button {
+    background-color: goldenrod;
+    font-size: 1.5rem;
+    padding: .5em 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+}
+
+.featured button:hover, .featured button:focus
+{
+    background-color: rgb(218, 131, 32);
+}

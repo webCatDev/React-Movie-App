@@ -1,0 +1,13 @@
+.container {
+  min-height: calc(100vh - 6em);
+  background-color: #151515;
+  padding-left: 5em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+.light {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
